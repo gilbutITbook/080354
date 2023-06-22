@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>셀프체크 17</title>
+</head>
+<body>
+<h1>Hello, <span id="target">World</span>!</h1>
+<input type="text" id="text-input">
+<button id="send-btn">전송</button>
+<script>
+    // 요소 가져오기
+    const inputElement = document.querySelector("#text-input");
+    const buttonElement = document.querySelector("#send-btn");
+    // 클릭 이벤트 감지하기
+    buttonElement.addEventListener("click", function() {
+        // input 값 가져오기
+        const str = inputElement.value;
+        // input 값 삭제
+        inputElement.value = "";
+        // 문서에 반영
+        target.innerText = str;
+    });
+</script>
+</body>
+</html>
