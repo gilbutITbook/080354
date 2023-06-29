@@ -2,7 +2,7 @@
 
 이 저장소에는 <코딩 자율학습 스프링 부트 3 자바 백엔드 개발 입문>의 예제 소스 코드가 담겨 있습니다.
 
-![cover image_코자 python_입체](https://user-images.githubusercontent.com/6995518/217156971-612dba69-93f2-4ae8-b47d-73d05011e710.png)
+![cover image_코자 spring boot_입체](https://github.com/gilbutITbook/080354/assets/6995518/9c6e97fc-5a1c-4856-98a8-8a16eb2c85e2)
 
 ## 예제 코드 다운로드 및 확인 방법
 
