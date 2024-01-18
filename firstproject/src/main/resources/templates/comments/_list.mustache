@@ -138,9 +138,7 @@
                     alert("댓글 삭제 실패..!");
                     return;
                 }
-                // 삭제 성공 시 댓글을 화면에서 지우고 메시지 창 띄우기
-                const target = document.querySelector(`#comments-${commentId}`);
-                target.remove();
+                // 삭제 성공 시 메시지 창 띄우기
                 const msg = `${commentId}번 댓글을 삭제했습니다.`;
                 alert(msg);
                 // 현재 페이지 새로 고침
