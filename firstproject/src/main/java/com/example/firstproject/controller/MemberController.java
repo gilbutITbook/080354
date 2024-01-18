@@ -75,8 +75,7 @@ public class MemberController {
 
     @GetMapping("/members/{id}/delete")
     public String delete(@PathVariable Long id,
-                         RedirectAttributes rttr,
-                         Model model) {
+                         RedirectAttributes rttr) {
         log.info("삭제 요청이 들어왔습니다!!");
         // 1. 삭제 대상을 가져옴
         Member target = memberRepository.findById(id).orElse(null);
