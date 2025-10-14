@@ -4,14 +4,13 @@
         <form>
             <!-- 닉네임 입력 -->
             <div class="mb-3">
-                <label class="form-label">닉네임</label>
+                <label for="new-comment-nickname" class="form-label">닉네임</label>
                 <input type="text" class="form-control" id="new-comment-nickname">
             </div>
             <!-- 댓글 본문 입력 -->
             <div class="mb-3">
-                <label class="form-label">댓글 내용</label>
-                <textarea type="text" class="form-control" rows="3"
-                          id="new-comment-body"></textarea>
+                <label for="new-comment-body" class="form-label">댓글 내용</label>
+                <textarea class="form-control" rows="3" id="new-comment-body"></textarea>
             </div>
             <!-- 히든 인풋 -->
             {{#article}}
